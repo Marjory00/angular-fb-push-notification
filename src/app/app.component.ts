@@ -6,9 +6,27 @@ import { MessagingService } from './service/messaging.service';
 @Component({
   selector: 'app-root',
  template: `
- <button (click)="
+ <button (click)="requestPermission()">
+  Hello this is a chat app. You should let us send you notifications for this reason.
+ </button>
+ `
 })
 export class AppComponent {
   title = 'angular-fb-push-notification';
-message: Observable<any>|Subscribable<any>|Promise<any>;
+
+
+constructor(private afMessaging: AngularFireMessaging) { }
+  requestPermission() {
+    this.afMessaging.requestPermission
+    .subscribe(
+      () => { console.log('Permission granted!'); },
+      (error) => { console.error(error); },
+
+    );
+  }
 }
+
+function requestPermission() {
+  throw new Error('Function not implemented.');
+}
+
