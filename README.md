@@ -12,7 +12,7 @@ Push notification, which gives popup on device notification tab of web applicati
 -Install latest version of Angular CLI:
 npm install -g @angular/cli@latest 
 
-* Once project environment has been done, it requires to setup a firebase account to connect web application into the cloud messaging. Please visit firebase.google.com for more information.
+* Once project environment has been done, it requires to setup a firebase account to connect web application into the cloud messaging. Please visit (https://firebase.google.com) for more information.
 
 
 ## Angular + Firebase Push Notification Project
