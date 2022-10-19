@@ -1,6 +1,22 @@
-# AngularFbPushNotification
+# Angular + Firebase(Fb) Push-Notification
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+
+## About
+
+Push notification, which gives popup on device notification tab of web application. Notification is received when the browser tab is not active and this is done with the help of a service worker.
+
+## Pre-requisites for Push Notifcations
+
+-Install Node.js.
+-Install latest version of Angular CLI:
+npm install -g @angular/cli@latest 
+
+* Once project environment has been done, it requires to setup a firebase account to connect web application into the cloud messaging. Please visit firebase.google.com for more information.
+
+
+## Angular + Firebase Push Notification Project
+
 
 ## Development server
 
